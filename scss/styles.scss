@@ -1,0 +1,80 @@
+// Lucio Aguirre
+// Variables de colores
+$color-finlandia: #51624F;
+$color-hampton: #E6D5A9;
+$color-norway: #AFBEA2;
+$color-edward: #9CB4AC;
+$color-finlandia-oscuro: #3F4E3A;
+$color-oscuro: black;
+$color-error: tomato;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $color-hampton;
+    color: $color-finlandia;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: $color-norway;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px $color-oscuro;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.errores {
+    display: none;
+}
+
+.error {
+    color: $color-error;
+    background-color: #ffe6e6;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid $color-edward;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: $color-finlandia;
+    color: $color-hampton;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: $color-finlandia-oscuro;
+}
+
+.resultados {
+    margin-top: 20px;
+    background-color: $color-hampton;
+    padding: 10px;
+    border-radius: 4px;
+}
